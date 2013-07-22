@@ -34,9 +34,19 @@
     //self.view.bounds = CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.height, [[UIScreen mainScreen] bounds].size.width);
     NSTimeInterval animateTime = [UIApplication sharedApplication].statusBarOrientationAnimationDuration;
     
+    CGAffineTransform newTransform = CGAffineTransformIdentity;
+	CGRect bounds = [[UIScreen mainScreen] bounds];
+	CGPoint center = CGPointMake(CGRectGetMidX(bounds), CGRectGetMidY(bounds));
+    bounds = CGRectMake(-20, 0, bounds.size.height, bounds.size.width);
+    
+    bgImageView.frame = bounds;
+    naviBgView.frame = CGRectMake(0, 20, bounds.size.height, 44);
+    
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:animateTime];
     self.view.transform = CGAffineTransformMakeRotation(M_PI_2);
+    self.view.bounds = bounds;
+    self.view.center = center;
     [UIView commitAnimations];
     
 }
