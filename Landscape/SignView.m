@@ -60,7 +60,7 @@
     CGContextSetLineWidth(context, 4);
     CGContextBeginPath(context);
     
-    int index;
+    int index = 0;
     for (int i=0; i<pointsList.count; i++) {
         if ([[pointsList objectAtIndex:i] isKindOfClass:[NSString class]] && [[pointsList objectAtIndex:i] isEqualToString:@"#"]) {
             index = 0;
