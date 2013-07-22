@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F27D6DF1775D739006D44F6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27D6DE1775D739006D44F6 /* BaseViewController.m */; };
+		0F27D6E21775D79E006D44F6 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F27D6E11775D79E006D44F6 /* bg.png */; };
+		0F27D6E517766E01006D44F6 /* nav-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F27D6E317766E01006D44F6 /* nav-bg.png */; };
+		0F27D6E617766E01006D44F6 /* nav-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F27D6E417766E01006D44F6 /* nav-bg@2x.png */; };
+		0F27D6E917766E1F006D44F6 /* nav-btn-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F27D6E717766E1F006D44F6 /* nav-btn-bg.png */; };
+		0F27D6EA17766E1F006D44F6 /* nav-btn-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F27D6E817766E1F006D44F6 /* nav-btn-bg@2x.png */; };
+		0F27D6ED17766E54006D44F6 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27D6EC17766E54006D44F6 /* Helper.m */; };
+		0F27D6EF1776E1C5006D44F6 /* back-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F27D6EE1776E1C5006D44F6 /* back-btn.png */; };
+		0F27D6F21776E8D4006D44F6 /* LandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F27D6F11776E8D4006D44F6 /* LandscapeViewController.m */; };
+		0F27D6F417773DE1006D44F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F27D6F317773DE0006D44F6 /* CoreLocation.framework */; };
+		0F3A15F2179C106F00D41392 /* SignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A15F1179C106E00D41392 /* SignView.m */; };
+		0F3A15F5179C18C700D41392 /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A15F4179C18C700D41392 /* SignViewController.m */; };
+		0F992E811775D1F3003B76DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F992E801775D1F3003B76DB /* UIKit.framework */; };
+		0F992E831775D1F3003B76DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F992E821775D1F3003B76DB /* Foundation.framework */; };
+		0F992E851775D1F3003B76DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F992E841775D1F3003B76DB /* CoreGraphics.framework */; };
+		0F992E8B1775D1F3003B76DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F992E891775D1F3003B76DB /* InfoPlist.strings */; };
+		0F992E8D1775D1F3003B76DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F992E8C1775D1F3003B76DB /* main.m */; };
+		0F992E911775D1F3003B76DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F992E901775D1F3003B76DB /* AppDelegate.m */; };
+		0F992E931775D1F3003B76DB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F992E921775D1F3003B76DB /* Default.png */; };
+		0F992E951775D1F3003B76DB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F992E941775D1F3003B76DB /* Default@2x.png */; };
+		0F992E971775D1F3003B76DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F992E961775D1F3003B76DB /* Default-568h@2x.png */; };
+		0F992E9F1775D227003B76DB /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F992E9E1775D227003B76DB /* PresentViewController.m */; };
+		0F992EA21775D426003B76DB /* CusNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F992EA11775D426003B76DB /* CusNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F27D6DD1775D739006D44F6 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0F27D6DE1775D739006D44F6 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0F27D6E11775D79E006D44F6 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		0F27D6E317766E01006D44F6 /* nav-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bg.png"; sourceTree = "<group>"; };
+		0F27D6E417766E01006D44F6 /* nav-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-bg@2x.png"; sourceTree = "<group>"; };
+		0F27D6E717766E1F006D44F6 /* nav-btn-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-btn-bg.png"; sourceTree = "<group>"; };
+		0F27D6E817766E1F006D44F6 /* nav-btn-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav-btn-bg@2x.png"; sourceTree = "<group>"; };
+		0F27D6EB17766E54006D44F6 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		0F27D6EC17766E54006D44F6 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		0F27D6EE1776E1C5006D44F6 /* back-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-btn.png"; sourceTree = "<group>"; };
+		0F27D6F01776E8D4006D44F6 /* LandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandscapeViewController.h; sourceTree = "<group>"; };
+		0F27D6F11776E8D4006D44F6 /* LandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandscapeViewController.m; sourceTree = "<group>"; };
+		0F27D6F317773DE0006D44F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0F3A15F0179C106E00D41392 /* SignView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignView.h; sourceTree = "<group>"; };
+		0F3A15F1179C106E00D41392 /* SignView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignView.m; sourceTree = "<group>"; };
+		0F3A15F3179C18C700D41392 /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		0F3A15F4179C18C700D41392 /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		0F992E7D1775D1F3003B76DB /* Landscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F992E801775D1F3003B76DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F992E821775D1F3003B76DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F992E841775D1F3003B76DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F992E881775D1F3003B76DB /* Landscape-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Landscape-Info.plist"; sourceTree = "<group>"; };
+		0F992E8A1775D1F3003B76DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F992E8C1775D1F3003B76DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F992E8E1775D1F3003B76DB /* Landscape-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Landscape-Prefix.pch"; sourceTree = "<group>"; };
+		0F992E8F1775D1F3003B76DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F992E901775D1F3003B76DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F992E921775D1F3003B76DB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0F992E941775D1F3003B76DB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0F992E961775D1F3003B76DB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0F992E9D1775D227003B76DB /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		0F992E9E1775D227003B76DB /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		0F992EA01775D426003B76DB /* CusNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusNavigationController.h; sourceTree = "<group>"; };
+		0F992EA11775D426003B76DB /* CusNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F992E7A1775D1F3003B76DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F27D6F417773DE1006D44F6 /* CoreLocation.framework in Frameworks */,
+				0F992E811775D1F3003B76DB /* UIKit.framework in Frameworks */,
+				0F992E831775D1F3003B76DB /* Foundation.framework in Frameworks */,
+				0F992E851775D1F3003B76DB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F27D6E01775D771006D44F6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				0F27D6E317766E01006D44F6 /* nav-bg.png */,
+				0F27D6E417766E01006D44F6 /* nav-bg@2x.png */,
+				0F27D6E717766E1F006D44F6 /* nav-btn-bg.png */,
+				0F27D6E817766E1F006D44F6 /* nav-btn-bg@2x.png */,
+				0F27D6EE1776E1C5006D44F6 /* back-btn.png */,
+				0F27D6E11775D79E006D44F6 /* bg.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		0F992E741775D1F2003B76DB = {
+			isa = PBXGroup;
+			children = (
+				0F992E861775D1F3003B76DB /* Landscape */,
+				0F992E7F1775D1F3003B76DB /* Frameworks */,
+				0F992E7E1775D1F3003B76DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F992E7E1775D1F3003B76DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F992E7D1775D1F3003B76DB /* Landscape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F992E7F1775D1F3003B76DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F27D6F317773DE0006D44F6 /* CoreLocation.framework */,
+				0F992E801775D1F3003B76DB /* UIKit.framework */,
+				0F992E821775D1F3003B76DB /* Foundation.framework */,
+				0F992E841775D1F3003B76DB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F992E861775D1F3003B76DB /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				0F992E8F1775D1F3003B76DB /* AppDelegate.h */,
+				0F992E901775D1F3003B76DB /* AppDelegate.m */,
+				0F27D6DD1775D739006D44F6 /* BaseViewController.h */,
+				0F27D6DE1775D739006D44F6 /* BaseViewController.m */,
+				0F992E9D1775D227003B76DB /* PresentViewController.h */,
+				0F992E9E1775D227003B76DB /* PresentViewController.m */,
+				0F27D6F01776E8D4006D44F6 /* LandscapeViewController.h */,
+				0F27D6F11776E8D4006D44F6 /* LandscapeViewController.m */,
+				0F992EA01775D426003B76DB /* CusNavigationController.h */,
+				0F992EA11775D426003B76DB /* CusNavigationController.m */,
+				0F3A15F3179C18C700D41392 /* SignViewController.h */,
+				0F3A15F4179C18C700D41392 /* SignViewController.m */,
+				0F3A15F0179C106E00D41392 /* SignView.h */,
+				0F3A15F1179C106E00D41392 /* SignView.m */,
+				0F27D6EB17766E54006D44F6 /* Helper.h */,
+				0F27D6EC17766E54006D44F6 /* Helper.m */,
+				0F992E871775D1F3003B76DB /* Supporting Files */,
+				0F27D6E01775D771006D44F6 /* image */,
+			);
+			path = Landscape;
+			sourceTree = "<group>";
+		};
+		0F992E871775D1F3003B76DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F992E881775D1F3003B76DB /* Landscape-Info.plist */,
+				0F992E891775D1F3003B76DB /* InfoPlist.strings */,
+				0F992E8C1775D1F3003B76DB /* main.m */,
+				0F992E8E1775D1F3003B76DB /* Landscape-Prefix.pch */,
+				0F992E921775D1F3003B76DB /* Default.png */,
+				0F992E941775D1F3003B76DB /* Default@2x.png */,
+				0F992E961775D1F3003B76DB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F992E7C1775D1F3003B76DB /* Landscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F992E9A1775D1F3003B76DB /* Build configuration list for PBXNativeTarget "Landscape" */;
+			buildPhases = (
+				0F992E791775D1F3003B76DB /* Sources */,
+				0F992E7A1775D1F3003B76DB /* Frameworks */,
+				0F992E7B1775D1F3003B76DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Landscape;
+			productName = Landscape;
+			productReference = 0F992E7D1775D1F3003B76DB /* Landscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F992E751775D1F2003B76DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ben;
+			};
+			buildConfigurationList = 0F992E781775D1F2003B76DB /* Build configuration list for PBXProject "Landscape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F992E741775D1F2003B76DB;
+			productRefGroup = 0F992E7E1775D1F3003B76DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F992E7C1775D1F3003B76DB /* Landscape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F992E7B1775D1F3003B76DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F992E8B1775D1F3003B76DB /* InfoPlist.strings in Resources */,
+				0F992E931775D1F3003B76DB /* Default.png in Resources */,
+				0F992E951775D1F3003B76DB /* Default@2x.png in Resources */,
+				0F992E971775D1F3003B76DB /* Default-568h@2x.png in Resources */,
+				0F27D6E21775D79E006D44F6 /* bg.png in Resources */,
+				0F27D6E517766E01006D44F6 /* nav-bg.png in Resources */,
+				0F27D6E617766E01006D44F6 /* nav-bg@2x.png in Resources */,
+				0F27D6E917766E1F006D44F6 /* nav-btn-bg.png in Resources */,
+				0F27D6EA17766E1F006D44F6 /* nav-btn-bg@2x.png in Resources */,
+				0F27D6EF1776E1C5006D44F6 /* back-btn.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F992E791775D1F3003B76DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F992E8D1775D1F3003B76DB /* main.m in Sources */,
+				0F992E911775D1F3003B76DB /* AppDelegate.m in Sources */,
+				0F992E9F1775D227003B76DB /* PresentViewController.m in Sources */,
+				0F992EA21775D426003B76DB /* CusNavigationController.m in Sources */,
+				0F27D6DF1775D739006D44F6 /* BaseViewController.m in Sources */,
+				0F27D6ED17766E54006D44F6 /* Helper.m in Sources */,
+				0F27D6F21776E8D4006D44F6 /* LandscapeViewController.m in Sources */,
+				0F3A15F2179C106F00D41392 /* SignView.m in Sources */,
+				0F3A15F5179C18C700D41392 /* SignViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F992E891775D1F3003B76DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F992E8A1775D1F3003B76DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F992E981775D1F3003B76DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yi jun (UP2W7HXJFN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "294CB682-5009-439D-A570-5DB544E324C1";
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F992E991775D1F3003B76DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: yi jun (UP2W7HXJFN)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "294CB682-5009-439D-A570-5DB544E324C1";
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F992E9B1775D1F3003B76DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: yi jun (UP2W7HXJFN)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Landscape/Landscape-Prefix.pch";
+				INFOPLIST_FILE = "Landscape/Landscape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "294CB682-5009-439D-A570-5DB544E324C1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F992E9C1775D1F3003B76DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: yi jun (UP2W7HXJFN)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Landscape/Landscape-Prefix.pch";
+				INFOPLIST_FILE = "Landscape/Landscape-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "294CB682-5009-439D-A570-5DB544E324C1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F992E781775D1F2003B76DB /* Build configuration list for PBXProject "Landscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F992E981775D1F3003B76DB /* Debug */,
+				0F992E991775D1F3003B76DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F992E9A1775D1F3003B76DB /* Build configuration list for PBXNativeTarget "Landscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F992E9B1775D1F3003B76DB /* Debug */,
+				0F992E9C1775D1F3003B76DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F992E751775D1F2003B76DB /* Project object */;
+}
