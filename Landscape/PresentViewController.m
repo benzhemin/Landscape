@@ -49,6 +49,8 @@
 }
 
 -(void)pressSignName{
+    [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationLandscapeRight animated:NO];
+    
     SignViewController *sc = [[SignViewController alloc] init];
     [self.navigationController pushViewController:sc animated:YES];
     [sc release];
