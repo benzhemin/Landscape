@@ -7,6 +7,7 @@
 //
 
 #import "PresentViewController.h"
+#import "TestRotationViewController.h"
 
 @implementation PresentViewController
 
@@ -24,6 +25,13 @@
     self.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
     [self setNavigationTitle:@"PresentView"];
+    
+    UIButton *rotationBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    rotationBtn.frame = CGRectMake(0, 0, 100 , 35);
+    [rotationBtn setTitle:@"Rotation" forState:UIControlStateNormal];
+    [self.view addSubview:rotationBtn];
+    rotationBtn.center = CGPointMake(self.view.center.x, self.view.center.y-160);
+    [rotationBtn addTarget:self action:@selector(pressRotation) forControlEvents:UIControlEventTouchUpInside];
     
     UIButton *landscapeBtn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     landscapeBtn.frame = CGRectMake(0, 0, 100 , 35);
@@ -46,6 +54,15 @@
     locBtn.center = CGPointMake(self.view.center.x, self.view.center.y+80);
     [locBtn addTarget:self action:@selector(pressLocate) forControlEvents:UIControlEventTouchUpInside];
 
+}
+
+-(void)pressRotation{
+    [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationLandscapeRight animated:NO];
+    
+    
+    TestRotationViewController *tr = [[TestRotationViewController alloc] init];
+    [self.navigationController pushViewController:tr animated:YES];
+    [tr release];
 }
 
 -(void)pressSignName{

@@ -30,6 +30,7 @@
 		0F992E971775D1F3003B76DB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F992E961775D1F3003B76DB /* Default-568h@2x.png */; };
 		0F992E9F1775D227003B76DB /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F992E9E1775D227003B76DB /* PresentViewController.m */; };
 		0F992EA21775D426003B76DB /* CusNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F992EA11775D426003B76DB /* CusNavigationController.m */; };
+		8B75848617B08935002B4A95 /* TestRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B75848517B08935002B4A95 /* TestRotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,8 @@
 		0F992E9E1775D227003B76DB /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
 		0F992EA01775D426003B76DB /* CusNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CusNavigationController.h; sourceTree = "<group>"; };
 		0F992EA11775D426003B76DB /* CusNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CusNavigationController.m; sourceTree = "<group>"; };
+		8B75848417B08935002B4A95 /* TestRotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestRotationViewController.h; sourceTree = "<group>"; };
+		8B75848517B08935002B4A95 /* TestRotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestRotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				0F27D6DE1775D739006D44F6 /* BaseViewController.m */,
 				0F992E9D1775D227003B76DB /* PresentViewController.h */,
 				0F992E9E1775D227003B76DB /* PresentViewController.m */,
+				8B75848417B08935002B4A95 /* TestRotationViewController.h */,
+				8B75848517B08935002B4A95 /* TestRotationViewController.m */,
 				0F27D6F01776E8D4006D44F6 /* LandscapeViewController.h */,
 				0F27D6F11776E8D4006D44F6 /* LandscapeViewController.m */,
 				0F992EA01775D426003B76DB /* CusNavigationController.h */,
@@ -244,6 +249,7 @@
 				0F27D6F21776E8D4006D44F6 /* LandscapeViewController.m in Sources */,
 				0F3A15F2179C106F00D41392 /* SignView.m in Sources */,
 				0F3A15F5179C18C700D41392 /* SignViewController.m in Sources */,
+				8B75848617B08935002B4A95 /* TestRotationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -34,6 +34,10 @@
     self.signView = [[[SignView alloc] initWithFrame:signFrame] autorelease];
     [contentView addSubview:signView];
     
+    
+    contentView.frame = CGRectMake(0, 44, bounds.size.width, bounds.size.height-44);
+    //signView.center = contentView.center;
+    
     CGAffineTransform transform = self.view.transform;
     
 	
@@ -48,7 +52,6 @@
     CGPoint center = CGPointMake(statusBounds.size.height / 2.0, statusBounds.size.width / 2.0);
     // set the center point of the view to the center point of the window's content area.
     self.view.center = center;
-    
     // Rotate the view 90 degrees around its new center point.
     transform = CGAffineTransformRotate(transform, (M_PI / 2.0));
     self.view.transform = transform;
@@ -70,9 +73,8 @@
     
     CGRect bounds = [[UIScreen mainScreen] bounds];
     bounds = CGRectMake(0.f, 0.f, bounds.size.height, bounds.size.width);
-    self.view.bounds = bounds;
-    self.view.center = CGPointMake(self.view.center.x, self.view.center.y-10);
     
+    self.view.center = CGPointMake(self.view.center.x, self.view.center.y+10);
 }
 
 -(void) goBack:(id)sender{
